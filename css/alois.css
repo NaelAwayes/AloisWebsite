@@ -1,0 +1,62 @@
+body {
+    padding-top: 50px;
+    color: #225BAA;
+    height: 100%;
+}
+
+/*navbar*/
+
+.topnav {
+    background-color: #EFEFEF;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #225BAA;
+}
+
+.social-title {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    max-width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    min-height: 40px;
+    margin-top: -10px;
+}
+
+.navbar-brand:hover {
+    opacity: 0.7;
+}
+
+
+/*header*/
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 100px 15px;
+
+}
+
+@media (min-width: 768px) {
+    header {
+        min-height: 100%;
+    }
+    .header-content {
+        min-height: 100%;
+    }
+    .header-content-inner {
+        min-height: 100%;
+    }
+}
